@@ -37,8 +37,5 @@ Tenho 19 anos, sou formado como Técnico em Eletrônica pelo Centro Paula Souza 
 <a href="mailto:contact.gabriels7@gmail.com" style="text-decoration: none;">
   <img src="https://img.shields.io/badge/Gmail-333?style=for-the-badge&logo=gmail&logoColor=white" style="display:inline-block;">
 </a>
-<a href="https://www.linkedin.com/in/gabrielsouza7/" target="_blank" style="text-decoration: none;">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="display:inline-block;">
-</a>
 
 
