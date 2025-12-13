@@ -1,4 +1,8 @@
-👋 Olá, eu sou Gabriel Souza
+# 👩🏻‍💻 Gabriel Souza
+
+**`Desenvolvedora Java`**
+Tenho 19 anos, sou formado como Técnico em Eletrônica pelo Centro Paula Souza e um grande entusiasta da área tecnológica. Atualmente, estou no 2º semestre do curso de Análise e Desenvolvimento de Sistemas.
+
 -------------------------------------------------------------------------------------
 -🎓 Técnico de Eletrônica 
 -💻 Desenvolvedor Java
