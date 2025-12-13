@@ -25,7 +25,6 @@
        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
 </div>
 
-<br><br>
 ### 📫 Contato
 
 <div> 
