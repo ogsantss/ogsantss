@@ -17,10 +17,6 @@ Tenho 19 anos, sou formado como Técnico em Eletrônica pelo Centro Paula Souza 
     height="200" 
     src="https://github-readme-stats.vercel.app/api?username=ogsantss&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
   />
-  <img 
-    height="200" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ogsantss&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" 
-  />
 </div>
 
 ---
