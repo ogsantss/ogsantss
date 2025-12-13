@@ -13,7 +13,7 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ogsantss&show_icons=true&theme=gruvbox_light)
 
 ### 🤖 Linguagens e Tecnologias
-<div style="display: inline_block"><br>
+<div style="display: inline_block">
   <img align="center" alt="Java" height="40" width="50"
        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
   <img align="center" alt="MySQL" height="40" width="50"
@@ -24,10 +24,7 @@
        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
 </div>
 
-
 ### 📫 Contato
-
-
 
 <div> 
   <a href="mailto:contact.gabriels7@gmail.com">
