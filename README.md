@@ -27,6 +27,7 @@
   />
 </p>
 
+
 ### 🤖 Linguagens e Tecnologias
 <div style="display: inline_block">
   <img align="center" alt="Java" height="40" width="50"
