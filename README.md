@@ -10,6 +10,7 @@ Tenho 19 anos, sou formado como Técnico em Eletrônica pelo Centro Paula Souza 
 
 -🚀 Apaixonado por tecnologia
 
+📊 Estatísticas
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ogsantss&show_icons=true&theme=gruvbox_light)
 
