@@ -4,14 +4,17 @@
 
 Tenho 19 anos, sou formado como Técnico em Eletrônica pelo Centro Paula Souza e um grande entusiasta da área tecnológica. Atualmente, estou no 2º semestre do curso de Análise e Desenvolvimento de Sistemas.
 
--------------------------------------------------------------------------------------
 -🎓 Técnico de Eletrônica 
+
 -💻 Desenvolvedor Java
+
 -🚀 Apaixonado por tecnologia
--------------------------------------------------------------------------------------
+
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ogsantss&show_icons=true&theme=gruvbox_light)
--------------------------------------------------------------------------------------
+
+### 🤖 Linguagens e Tecnologias
+
 <div style="display: inline_block"><br>
   <img align="center" alt="Java" height="40" width="50"
        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
