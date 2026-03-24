@@ -20,31 +20,7 @@ Estudante de Análise e Desenvolvimento de Sistemas e Técnico em Eletrônica. A
 ---
 
 ### 🤖 Linguagens e Tecnologias
-
-<img alt="HTML" height="40" width="50"
-     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-
-<img alt="CSS" height="40" width="50"
-     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-
-<img alt="Java" height="40" width="50"
-     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
-
-<img alt="JavaScript" height="40" width="50"
-     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-
-<img alt="Python" height="40" width="50"
-     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-
-<img alt="MySQL" height="40" width="50"
-     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
-
-<img alt="GitHub" height="40" width="50"
-     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
-
-<img alt="Power BI" height="40" width="50"
-     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg">
-
+<img alt="Java" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"> <img alt="MySQL" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"> <img alt="Git" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"> <img alt="GitHub" height="40" width="50"
 ---
 
 ### 📫 Contato
