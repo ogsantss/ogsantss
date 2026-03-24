@@ -1,6 +1,6 @@
 # 👩🏻‍💻 Gabriel Souza
 
-**`Desenvolvedor Java`**
+**`Desenvolvedor`**
 
 Estudante de Análise e Desenvolvimento de Sistemas e Técnico em Eletrônica. Atualmente, atuo como Jovem Aprendiz na área de Privacidade de Dados na QuintoAndar. Possuo conhecimentos em tecnologias como Java, Python, MySQL e Power BI.
 
