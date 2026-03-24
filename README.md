@@ -5,7 +5,7 @@
 Estudante de Análise e Desenvolvimento de Sistemas e Técnico em Eletrônica. Atualmente, atuo como Jovem Aprendiz na área de Privacidade de Dados na QuintoAndar. Possuo conhecimentos em tecnologias como Java, Python, MySQL e Power BI.
 
 - 🎓 Técnico em Eletrônica  
-- 💻 Desenvolvedor Java  
+- 💻 Analista de Dados 
 - 🚀 Apaixonado por tecnologia  
 
 ---
