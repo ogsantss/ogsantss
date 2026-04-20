@@ -21,16 +21,16 @@ Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia. 
     <td align="center" width="220">
       <strong>📊 Dados</strong><br>
       <sub>
-        <img src="https://img.shields.io/badge/Power_BI-gray?style=flat-square">
-        <img src="https://img.shields.io/badge/MySQL-gray?style=flat-square">
+       <sub>Power BI</sub>
+       <sub>SQL</sub>
       </sub>
     </td>
     <td align="center" width="220">
       <strong>🚀 Dev</strong><br>
       <sub>
-        <img src="https://img.shields.io/badge/Java-gray?style=flat-square">
-        <img src="https://img.shields.io/badge/Python-gray?style=flat-square">
-        <img src="https://img.shields.io/badge/JS-gray?style=flat-square">
+      <sub>Java</sub>
+      <sub>Python</sub>
+      <sub>JS</sub>
       </sub>
     </td>
   </tr>
