@@ -20,18 +20,14 @@ Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia. 
     </td>
     <td align="center" width="220">
       <strong>📊 Dados</strong><br>
-      <sub>
        <sub>Power BI</sub>
        <sub>SQL</sub>
-      </sub>
     </td>
     <td align="center" width="220">
       <strong>🚀 Dev</strong><br>
-      <sub>
       <sub>Java</sub>
       <sub>Python</sub>
       <sub>JS</sub>
-      </sub>
     </td>
   </tr>
 </table>
