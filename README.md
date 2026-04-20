@@ -12,20 +12,40 @@ Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia. 
 
 ### 🗂️ Áreas
 
-| 🎓 Eletrônica | 📊 Dados | 🚀 Dev |
-|---|---|---|
-| Técnico formado | Power BI · MySQL | Java · Python · JS |
+<table>
+  <tr>
+    <td align="center" width="220">
+      <strong>🎓 Eletrônica</strong><br>
+      <sub>Técnico formado</sub>
+    </td>
+    <td align="center" width="220">
+      <strong>📊 Dados</strong><br>
+      <sub>
+        <img src="https://img.shields.io/badge/Power_BI-gray?style=flat-square">
+        <img src="https://img.shields.io/badge/MySQL-gray?style=flat-square">
+      </sub>
+    </td>
+    <td align="center" width="220">
+      <strong>🚀 Dev</strong><br>
+      <sub>
+        <img src="https://img.shields.io/badge/Java-gray?style=flat-square">
+        <img src="https://img.shields.io/badge/Python-gray?style=flat-square">
+        <img src="https://img.shields.io/badge/JS-gray?style=flat-square">
+      </sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### 🤖 Tecnologias
 
-<img alt="HTML" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-<img alt="CSS" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-<img alt="Java" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
-<img alt="JavaScript" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-<img alt="Python" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-<img alt="MySQL" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+<img alt="HTML" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">&nbsp;
+<img alt="CSS" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">&nbsp;
+<img alt="Java" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">&nbsp;
+<img alt="JavaScript" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">&nbsp;
+<img alt="Python" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">&nbsp;
+<img alt="MySQL" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">&nbsp;
 <img alt="GitHub" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
 
 ---
