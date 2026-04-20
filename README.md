@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:0f3460,100:533483&height=200&section=header&text=Gabriel%20Souza&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Desenvolvedor%20·%20Jovem%20Aprendiz%20na%20QuintoAndar&descAlignY=55&descColor=ffffffaa)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:0f3460,100:533483&height=200&section=header&text=Gabriel%20Souza&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Desenvolvedor%20·%20Jovem%20Aprendiz%20no%20QuintoAndar&descAlignY=55&descColor=ffffffaa)
 
 ![Técnico em Eletrônica](https://img.shields.io/badge/🎓_Técnico_em_Eletrônica-1a1a2e?style=flat-square&labelColor=533483&color=0f3460)
 ![ADS](https://img.shields.io/badge/💻_ADS-1a1a2e?style=flat-square&labelColor=533483&color=0f3460)
