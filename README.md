@@ -1,12 +1,20 @@
-# 👨‍💻 Gabriel Souza
+<div align="center">
 
-**Desenvolvedor · Jovem Aprendiz na QuintoAndar**
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:0f3460,100:533483&height=200&section=header&text=Gabriel%20Souza&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Desenvolvedor%20·%20Jovem%20Aprendiz%20na%20QuintoAndar&descAlignY=55&descColor=ffffffaa)
 
-Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia. Atualmente na área de Privacidade de Dados na QuintoAndar, com experiência em desenvolvimento, análise de dados e eletrônica.
+![Técnico em Eletrônica](https://img.shields.io/badge/🎓_Técnico_em_Eletrônica-1a1a2e?style=flat-square&labelColor=533483&color=0f3460)
+![ADS](https://img.shields.io/badge/💻_ADS-1a1a2e?style=flat-square&labelColor=533483&color=0f3460)
+![Privacidade de Dados](https://img.shields.io/badge/🔒_Privacidade_de_Dados-1a1a2e?style=flat-square&labelColor=533483&color=0f3460)
 
-![Técnico em Eletrônica](https://img.shields.io/badge/Técnico_em_Eletrônica-gray?style=flat-square)
-![ADS](https://img.shields.io/badge/ADS-gray?style=flat-square)
-![Privacidade de Dados](https://img.shields.io/badge/Privacidade_de_Dados-gray?style=flat-square)
+</div>
+
+---
+
+### 🌐 Contato & Redes
+
+[![GitHub](https://img.shields.io/badge/GitHub-ogsantss-181717?style=flat-square&logo=github)](https://github.com/ogsantss)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel_Souza-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/SEU_USUARIO)
+[![Gmail](https://img.shields.io/badge/Gmail-contact.gabriels7@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact.gabriels7@gmail.com)
 
 ---
 
@@ -14,20 +22,20 @@ Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia. 
 
 <table>
   <tr>
-    <td align="center" width="220">
-      <strong>🎓 Eletrônica</strong><br>
-      <sub>Técnico formado</sub>
+    <td align="center" width="220" style="background:#e6f1fb; border-radius:12px; padding:16px;">
+      <strong>🎓 Eletrônica</strong><br><br>
+      <img src="https://img.shields.io/badge/Técnico_formado-b5d4f4?style=flat-square&color=185fa5&labelColor=b5d4f4">
     </td>
     <td align="center" width="220">
-      <strong>📊 Dados</strong><br>
-       <sub>Power BI</sub>
-       <sub>SQL</sub>
+      <strong>📊 Dados</strong><br><br>
+      <img src="https://img.shields.io/badge/Power_BI-cecbf6?style=flat-square&color=534ab7&labelColor=cecbf6">
+      <img src="https://img.shields.io/badge/MySQL-cecbf6?style=flat-square&color=534ab7&labelColor=cecbf6">
     </td>
     <td align="center" width="220">
-      <strong>🚀 Dev</strong><br>
-      <sub>Java</sub>
-      <sub>Python</sub>
-      <sub>JS</sub>
+      <strong>🚀 Dev</strong><br><br>
+      <img src="https://img.shields.io/badge/Java-9fe1cb?style=flat-square&color=0f6e56&labelColor=9fe1cb">
+      <img src="https://img.shields.io/badge/Python-9fe1cb?style=flat-square&color=0f6e56&labelColor=9fe1cb">
+      <img src="https://img.shields.io/badge/JS-9fe1cb?style=flat-square&color=0f6e56&labelColor=9fe1cb">
     </td>
   </tr>
 </table>
@@ -36,24 +44,23 @@ Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia. 
 
 ### 🤖 Tecnologias
 
-<img alt="HTML" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">&nbsp;
-<img alt="CSS" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">&nbsp;
-<img alt="Java" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">&nbsp;
-<img alt="JavaScript" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">&nbsp;
-<img alt="Python" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">&nbsp;
-<img alt="MySQL" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">&nbsp;
-<img alt="GitHub" height="28" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+<img alt="HTML" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">&nbsp;
+<img alt="CSS" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">&nbsp;
+<img alt="Java" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">&nbsp;
+<img alt="JavaScript" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">&nbsp;
+<img alt="Python" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">&nbsp;
+<img alt="MySQL" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">&nbsp;
+<img alt="GitHub" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
 
 ---
 
 ### 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ogsantss&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br)
+<div align="center">
 
----
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=ogsantss&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br&hide_border=true"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ogsantss&layout=compact&theme=tokyonight&hide_border=true&locale=pt-br"/>
 
-### 📫 Contato
+<img src="https://streak-stats.demolab.com?user=ogsantss&theme=tokyonight&hide_border=true&locale=pt_BR"/>
 
-<a href="mailto:contact.gabriels7@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-contact.gabriels7%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white">
-</a>
+</div>
