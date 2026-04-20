@@ -13,7 +13,7 @@
 ### 🌐 Contato & Redes
 
 [![GitHub](https://img.shields.io/badge/GitHub-ogsantss-181717?style=flat-square&logo=github)](https://github.com/ogsantss)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel_Souza-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/SEU_USUARIO)
+[![LinkedIn](https://www.linkedin.com/in/gabrielsouza7/)
 [![Gmail](https://img.shields.io/badge/Gmail-contact.gabriels7@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact.gabriels7@gmail.com)
 
 ---
