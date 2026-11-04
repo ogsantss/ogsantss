@@ -10,13 +10,13 @@
 ## 1 · Descrição geral
 
 <div align="center">
-  <img src="assets/description.svg" width="100%" alt="Display LCD com a descrição de Gabriel, um profissional de dados em início de carreira, ligado a três módulos: Machine Learning, dados com Python, Pandas, SQL e MongoDB, e BI com Power BI" />
+  <img src="assets/description.svg" width="100%" alt="Display LCD com a descrição de Gabriel, um profissional de dados em início de carreira, ligado a três módulos: dados com Python e Pandas, SQL e MongoDB, e BI com Power BI" />
 </div>
 
 ## 2 · Pinagem
 
 <div align="center">
-  <img src="assets/pinout.svg" width="100%" alt="Chip Gabriel. Entradas: Python, SQL, MongoDB, Pandas, Java, Power BI, Excel, Git e GitHub. Saídas: Machine Learning, Análise Exploratória, LLM, Modelagem de Dados, Dashboards, Automação, Qualidade de Dados e LGPD" />
+  <img src="assets/pinout.svg" width="100%" alt="Chip Gabriel. Entradas: Python, SQL, MongoDB, Pandas, Java, Power BI, Excel, Git e GitHub. Saídas: Tratamento de Dados, Análise Exploratória, Indicadores, Modelagem de Dados, Dashboards, Automação, Qualidade de Dados e LGPD" />
 </div>
 
 ## 3 · Diagrama de blocos
@@ -65,7 +65,7 @@ Medição real, não ilustração. Este traço é redesenhado todo dia com as mi
 
 ### Sobre
 
-Profissional de dados em início de carreira. Transformo dados brutos em indicadores, modelos de Machine Learning e processos bem documentados, com atenção à privacidade.
+Profissional de dados em início de carreira. Transformo dados brutos em indicadores, análises e processos bem documentados, com atenção à privacidade.
 
 ### Experiência
 
@@ -91,6 +91,6 @@ Profissional de dados em início de carreira. Transformo dados brutos em indicad
 
 ### Habilidades
 
-Python, SQL, Java · Machine Learning, Análise Exploratória, Pandas, LLM · MongoDB, Modelagem de Dados · Power BI, Excel · Git, GitHub, APIs, JSON · Privacidade de Dados, LGPD
+Python, SQL, Java · Tratamento de Dados, Análise Exploratória, Pandas · MongoDB, Modelagem de Dados · Power BI, Excel · Git, GitHub, APIs, JSON · Privacidade de Dados, LGPD
 
 </details>

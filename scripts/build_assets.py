@@ -134,7 +134,7 @@ def hero():
     b.append(f'<path class="fc" d="M866 252 L900 238 L944 224" fill="none" stroke="{GOLD}" stroke-width="2.5"/>')
 
     # Trilhas e chips conversores entre os estágios.
-    for x1, x2, label in ((288, 392, "ADC"), (608, 714, "ML")):
+    for x1, x2, label in ((288, 392, "ADC"), (608, 714, "SQL")):
         cx = (x1 + x2) / 2
         b.append(f'<path class="trace" d="M{x1} 270 H{x2}"/>')
         b.append(f'<path class="pulse" pathLength="600" d="M{x1} 270 H{x2}"/>')
@@ -143,7 +143,7 @@ def hero():
         b.append(f'<rect class="chip" x="{cx-28}" y="246" width="56" height="48" rx="3"/>')
         b.append(f'<text x="{cx}" y="276" font-size="17" class="silk" text-anchor="middle">{label}</text>')
 
-    for x, title, sub in ((165, "SINAL", "eletrônica"), (500, "CÓDIGO", "desenvolvimento"), (833, "DECISÃO", "dados e previsão")):
+    for x, title, sub in ((165, "SINAL", "eletrônica"), (500, "CÓDIGO", "desenvolvimento"), (833, "DECISÃO", "dados e indicadores")):
         b.append(f'<text x="{x}" y="349" font-size="16" class="silk" text-anchor="middle" letter-spacing="2">{title}</text>')
         b.append(f'<text x="{x}" y="370" font-size="14" class="muted" text-anchor="middle">{sub}</text>')
     return svg(w, h, "Gabriel Souza: do sinal ao dado, do dado à decisão", css, "".join(b))
@@ -151,7 +151,7 @@ def hero():
 
 def pinout():
     left = ["Python", "SQL", "MongoDB", "Pandas", "Java", "Power BI", "Excel", "Git / GitHub"]
-    right = ["Machine Learning", "Análise Exploratória", "LLM", "Modelagem de Dados", "Dashboards", "Automação", "Qualidade de Dados", "LGPD"]
+    right = ["Tratamento de Dados", "Análise Exploratória", "Indicadores", "Modelagem de Dados", "Dashboards", "Automação", "Qualidade de Dados", "LGPD"]
     w, h = 1000, 430
     top, step = 96, 38
     n = len(left)
@@ -229,7 +229,7 @@ def description():
     w, h = 1000, 380
     text = (
         "O Gabriel é um profissional de dados em início de carreira que transforma dados brutos "
-        "em indicadores, modelos de Machine Learning e processos bem documentados, com atenção "
+        "em indicadores, análises e processos bem documentados, com atenção "
         "à privacidade."
     )
     lcd = "#a9c94f"
@@ -255,8 +255,8 @@ def description():
     b.append("</g>")
 
     mods = [
-        ("ML", "Modelos de Machine Learning"),
-        ("DATA", "Python, Pandas, SQL e MongoDB"),
+        ("DATA", "Tratamento e análise com Python e Pandas"),
+        ("SQL", "Consultas e modelagem com SQL e MongoDB"),
         ("BI", "Dashboards e indicadores no Power BI"),
     ]
     cw, gap = 290, 12
