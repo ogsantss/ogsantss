@@ -1,4 +1,4 @@
-name: Gerar cobrinha de contribuições
+name: Atualizar osciloscópio
 
 on:
   schedule:
@@ -11,15 +11,16 @@ permissions:
   contents: write
 
 jobs:
-  snake:
+  scope:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#39d353
+          python-version: "3.12"
+
+      - run: python scripts/build_scope.py "${{ github.repository_owner }}" dist/scope.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
