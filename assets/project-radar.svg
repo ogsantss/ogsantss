@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img"><title>Radar Urbano</title><style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
+.silk{fill:#e6edf3}.muted{fill:#8fa89b}.gold{fill:#d9a441}.green{fill:#39d353}
+.trace{fill:none;stroke:#d9a441;stroke-width:2;opacity:.45}
+.pulse{fill:none;stroke:#39d353;stroke-width:3;stroke-linecap:round;
+  stroke-dasharray:70 530;animation:flow 3s linear infinite}
+.chip{fill:#10171a;stroke:#d9a441;stroke-width:1.5}
+.led{fill:#39d353;animation:blink 1.6s ease-in-out infinite}
+@keyframes flow{from{stroke-dashoffset:600}to{stroke-dashoffset:0}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.spin{animation:spin 4s linear infinite}
+@keyframes spin{to{transform:rotate(-360deg)}}
+.blip{animation:blink 1.8s ease-in-out infinite}
+.route{stroke-dasharray:9 7;animation:route 1.5s linear infinite}
+@keyframes route{to{stroke-dashoffset:-32}}
+.ride{animation:ride 8s linear infinite}
+@keyframes ride{to{transform:translateX(580px)}}
+.ball{animation:ball 7s ease-in-out infinite}
+@keyframes ball{0%,100%{transform:translate(90px,62px)}25%{transform:translate(210px,28px)}50%{transform:translate(300px,90px)}75%{transform:translate(412px,62px)}}
+.tag{fill:#1a2a22;stroke:#2f5d45}
+</style><rect width="1000" height="330" rx="16" fill="#07130e"/><rect x="8" y="8" width="984" height="314" rx="11" fill="none" stroke="#143126" stroke-width="2"/><circle cx="24" cy="24" r="7" fill="#000" stroke="#d9a441" stroke-width="2.5"/><circle cx="976" cy="24" r="7" fill="#000" stroke="#d9a441" stroke-width="2.5"/><circle cx="24" cy="306" r="7" fill="#000" stroke="#d9a441" stroke-width="2.5"/><circle cx="976" cy="306" r="7" fill="#000" stroke="#d9a441" stroke-width="2.5"/><circle cx="180" cy="165" r="125" fill="#04100a"/><circle cx="180" cy="165" r="41" fill="none" stroke="#1d5238"/><circle cx="180" cy="165" r="82" fill="none" stroke="#1d5238"/><circle cx="180" cy="165" r="125" fill="none" stroke="#1d5238"/><path d="M55 165 H305 M180 40 V290" stroke="#1d5238"/><path class="route" d="M92 221 L155 202 L168 140 L249 109" fill="none" stroke="#d9a441" stroke-width="3" stroke-linejoin="round"/><circle class="blip" cx="242" cy="209" r="6" fill="#f85149" style="animation-delay:0.0s"/><circle class="blip" cx="124" cy="115" r="6" fill="#f85149" style="animation-delay:0.7s"/><circle class="blip" cx="205" cy="246" r="6" fill="#f85149" style="animation-delay:1.4s"/><g transform="translate(180 165)"><path class="spin" d="M0 0 L125 0 A125 125 0 0 0 80.3 -95.8 Z" fill="#39d353" opacity=".35"/></g><text x="350" y="60" font-size="16" class="gold">A1 · PROJETO PRINCIPAL</text><circle class="led" cx="780" cy="55" r="5.5"/><text x="794" y="60" font-size="14" class="muted">em andamento</text><text x="350" y="108" font-size="36" font-weight="700" class="silk">Radar Urbano</text><text x="350" y="146" font-size="18" class="silk">Sistema web que indica as rotas mais seguras e eficientes</text><text x="350" y="173" font-size="18" class="silk">da cidade com Machine Learning, mapeia áreas de risco em</text><text x="350" y="200" font-size="18" class="silk">dashboards de BI e usa um LLM para classificar as</text><text x="350" y="227" font-size="18" class="silk">ocorrências relatadas pelos usuários.</text><rect class="tag" x="350" y="253" width="36" height="27" rx="5"/><text x="359" y="272" font-size="15" class="green">ML</text><rect class="tag" x="394" y="253" width="45" height="27" rx="5"/><text x="403" y="272" font-size="15" class="green">LLM</text><rect class="tag" x="447" y="253" width="36" height="27" rx="5"/><text x="456" y="272" font-size="15" class="green">BI</text><rect class="tag" x="491" y="253" width="117" height="27" rx="5"/><text x="500" y="272" font-size="15" class="green">Geoespacial</text><text x="952" y="295" font-size="14" class="green" text-anchor="end">abrir repositório →</text></svg>

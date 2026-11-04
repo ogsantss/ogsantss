@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 100" width="490" height="100" role="img"><title>E-MAIL</title><style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
+.silk{fill:#e6edf3}.muted{fill:#8fa89b}.gold{fill:#d9a441}.green{fill:#39d353}
+.trace{fill:none;stroke:#d9a441;stroke-width:2;opacity:.45}
+.pulse{fill:none;stroke:#39d353;stroke-width:3;stroke-linecap:round;
+  stroke-dasharray:70 530;animation:flow 3s linear infinite}
+.chip{fill:#10171a;stroke:#d9a441;stroke-width:1.5}
+.led{fill:#39d353;animation:blink 1.6s ease-in-out infinite}
+@keyframes flow{from{stroke-dashoffset:600}to{stroke-dashoffset:0}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style><rect width="490" height="100" rx="16" fill="#07130e"/><rect x="8" y="8" width="474" height="84" rx="11" fill="none" stroke="#143126" stroke-width="2"/><circle cx="24" cy="24" r="7" fill="#000" stroke="#d9a441" stroke-width="2.5"/><circle cx="466" cy="24" r="7" fill="#000" stroke="#d9a441" stroke-width="2.5"/><circle cx="24" cy="76" r="7" fill="#000" stroke="#d9a441" stroke-width="2.5"/><circle cx="466" cy="76" r="7" fill="#000" stroke="#d9a441" stroke-width="2.5"/><text x="58" y="44" font-size="15" class="gold">E-MAIL</text><text x="58" y="72" font-size="20" font-weight="700" class="silk">contact.gabriels7@gmail.com</text><rect x="438" y="33.0" width="10" height="34" rx="1" fill="#d9a441"/><rect x="422" y="33.0" width="10" height="34" rx="1" fill="#d9a441"/><rect x="406" y="33.0" width="10" height="34" rx="1" fill="#d9a441"/><rect x="390" y="33.0" width="10" height="34" rx="1" fill="#d9a441"/></svg>

@@ -6,23 +6,15 @@
 > Leia como a folha de dados de um componente: o que ele faz, como se liga e em que condições opera.
 
 <div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-gabrielsouza7-07130e?style=for-the-badge)](https://www.linkedin.com/in/gabrielsouza7/)
-[![Email](https://img.shields.io/badge/E--mail-contact.gabriels7-07130e?style=for-the-badge)](mailto:contact.gabriels7@gmail.com)
-
+  <a href="https://www.linkedin.com/in/gabrielsouza7/"><img src="assets/btn-linkedin.svg" width="49%" alt="LinkedIn: gabrielsouza7" /></a>
+  <a href="mailto:contact.gabriels7@gmail.com"><img src="assets/btn-email.svg" width="49%" alt="E-mail: contact.gabriels7@gmail.com" /></a>
 </div>
 
 ## 1 · Descrição geral
 
-O **GS-2026** é um profissional de dados em início de carreira que transforma dados brutos em indicadores, modelos preditivos e processos bem documentados, com governança e privacidade desde a entrada.
-
-**Características**
-
-- Modelos preditivos e detecção de anomalias com **Machine Learning**
-- Tratamento e análise de dados com **Python, Pandas, SQL e MongoDB**
-- Dashboards e indicadores em **Power BI**
-- **Governança de Dados e LGPD** na prática, no QuintoAndar
-- Automação de processos com **n8n**
+<div align="center">
+  <img src="assets/description.svg" width="100%" alt="Display LCD com a descrição do GS-2026, um profissional de dados em início de carreira, ligado a cinco módulos: Machine Learning, dados com Python, Pandas, SQL e MongoDB, BI com Power BI, Governança e LGPD, e automação com n8n" />
+</div>
 
 ## 2 · Pinagem
 
@@ -38,15 +30,9 @@ O **GS-2026** é um profissional de dados em início de carreira que transforma 
 
 ## 4 · Condições de operação
 
-**Jovem Aprendiz · Data Governance e Privacidade de Dados** · QuintoAndar · jan/2026 → atual
-
-| Função | Descrição |
-|:--|:--|
-| Qualidade | Análise, tratamento e qualidade de dados em processos de governança e privacidade (LGPD) |
-| Monitoramento | Dashboards para acompanhar os indicadores da área |
-| Automação | Automação de processos e rotinas operacionais |
-| Financeiro | Execução e controle de pagamentos via SAP |
-| Documentação | Mapeamento de processos com fluxogramas no Figma |
+<div align="center">
+  <img src="assets/analyzer.svg" width="100%" alt="Analisador lógico com cinco canais da experiência de Jovem Aprendiz no QuintoAndar desde janeiro de 2026: qualidade de dados, dashboards de monitoramento, automação, pagamentos via SAP e documentação de processos no Figma" />
+</div>
 
 ## 5 · Sinal medido
 
@@ -58,31 +44,60 @@ Medição real, não ilustração. Este traço é redesenhado todo dia com as mi
 
 ## 6 · Aplicações típicas
 
-| Ref. | Aplicação | O que faz | Componentes | Status |
-|:--|:--|:--|:--|:--:|
-| A1 | 🏙️ **[Radar Urbano](https://github.com/ogsantss/Radar-Urbano)** | Indica as rotas mais seguras e eficientes da cidade com Machine Learning, mapeia áreas de risco e usa um LLM para classificar ocorrências | `ML` `LLM` `BI` | 🟢 em andamento |
-| A2 | 🚆 **Challenge FIAP + Motiva** | Prevê falhas em equipamentos que operam nos trilhos de trem de São Paulo, para reduzir paradas não programadas | `ML` `Sensores` | 🟢 em andamento |
-| A3 | 🛡️ **Detecção de Vazamento de Dados** | Encontra possíveis vazamentos de dados corporativos com detecção de anomalias e auditoria de acessos | `Python` `MongoDB` `SQL` `Power BI` | 🟢 em andamento |
-| A4 | ⚽ **[Análise Copa do Mundo](https://github.com/ogsantss/AnaliseCopaDoMundo)** | Análise exploratória de dataset público, com tratamento, visualizações e insights | `Python` `Pandas` | 🔵 pessoal |
-| A5 | 👟 **E-commerce de Tênis** | Site de vendas full stack com consumo de API, banco relacional e JSON | `API` `SQL` `JSON` | 🔵 acadêmico |
+<div align="center">
+  <a href="https://github.com/ogsantss/Radar-Urbano"><img src="assets/project-radar.svg" width="100%" alt="Radar Urbano: sistema web de rotas seguras com Machine Learning, BI e LLM. Em andamento." /></a>
+  <br><br>
+  <img src="assets/project-motiva.svg" width="49%" alt="Challenge FIAP + Motiva: previsão de falhas em equipamentos dos trilhos de trem de São Paulo. Em andamento." />
+  <img src="assets/project-leak.svg" width="49%" alt="Detecção de Vazamento de Dados com detecção de anomalias e auditoria de acessos. Em andamento." />
+  <a href="https://github.com/ogsantss/AnaliseCopaDoMundo"><img src="assets/project-copa.svg" width="49%" alt="Análise Copa do Mundo: análise exploratória de dataset público com Python e Pandas." /></a>
+  <img src="assets/project-shop.svg" width="49%" alt="E-commerce de Tênis: site de vendas full stack com API, banco relacional e JSON." />
+</div>
 
 ## 7 · Limites absolutos
 
-| Parâmetro | Máximo |
-|:--|:--:|
-| Dados pessoais sem base legal | **0** |
-| Modelos sem métrica de avaliação | **0** |
-| Dashboards sem fonte conhecida | **0** |
-| Processos sem fluxograma | **0** |
-
-<sub>⚠️ Operar acima destes limites pode causar danos permanentes ao titular dos dados.</sub>
+<div align="center">
+  <img src="assets/limits.svg" width="100%" alt="Quatro medidores analógicos, todos em zero: dados pessoais sem base legal, modelos sem métrica de avaliação, dashboards sem fonte conhecida e processos sem fluxograma. Operar acima destes limites pode causar danos permanentes ao titular dos dados." />
+</div>
 
 ## 8 · Informações para contato
 
-```text
-Código do pedido   GS-2026-SP
-Disponível em      São Paulo, SP
-LinkedIn           linkedin.com/in/gabrielsouza7
-E-mail             contact.gabriels7@gmail.com
-Telefone           ███████████   anonimizado, afinal: LGPD
-```
+<div align="center">
+  <img src="assets/label.svg" width="100%" alt="Etiqueta do componente GS-2026-SP: São Paulo, SP, LinkedIn gabrielsouza7, e-mail contact.gabriels7@gmail.com e telefone anonimizado por causa da LGPD" />
+</div>
+
+<details>
+<summary><b>📄 Abrir a versão em texto</b> (melhor para ler no celular)</summary>
+
+### Sobre
+
+Profissional de dados em início de carreira. Transformo dados brutos em indicadores, modelos preditivos e processos bem documentados, com governança e privacidade desde a entrada.
+
+### Experiência
+
+**Jovem Aprendiz · Data Governance e Privacidade de Dados** · QuintoAndar · jan/2026 → atual
+
+- Análise, tratamento e qualidade de dados em processos de governança e privacidade (LGPD)
+- Dashboards para acompanhar os indicadores da área
+- Automação de processos e rotinas operacionais
+- Execução e controle de pagamentos via SAP
+- Mapeamento de processos com fluxogramas no Figma
+
+### Projetos
+
+- **[Radar Urbano](https://github.com/ogsantss/Radar-Urbano)**: rotas seguras com Machine Learning, BI e LLM (em andamento)
+- **Challenge FIAP + Motiva**: previsão de falhas em equipamentos dos trilhos de trem de São Paulo (em andamento)
+- **Detecção de Vazamento de Dados**: detecção de anomalias e auditoria de acessos com Python, MongoDB, SQL e Power BI (em andamento)
+- **[Análise Copa do Mundo](https://github.com/ogsantss/AnaliseCopaDoMundo)**: análise exploratória com Python e Pandas
+- **E-commerce de Tênis**: site full stack com API, banco relacional e JSON
+
+### Formação
+
+- Tecnólogo em Data Science · FIAP · 2026–2028 (em andamento)
+- Tecnólogo em Análise e Desenvolvimento de Sistemas · Senac Santo Amaro · 2025–2027 (em andamento)
+- Técnico em Eletrônica · Etec Carolina Carinhato Sampaio · 2022–2024
+
+### Habilidades
+
+Python, SQL, Java, HTML, CSS · Machine Learning, Modelagem Preditiva, Detecção de Anomalias, Análise Exploratória, Pandas, LLM, Big Data · MongoDB, Modelagem de Dados · Power BI, Excel · n8n, SAP, Figma, Git, GitHub, APIs, JSON · Governança de Dados, Privacidade de Dados, LGPD
+
+</details>
