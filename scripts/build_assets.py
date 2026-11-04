@@ -74,7 +74,7 @@ def dot_matrix(text, x0, y0, pitch, radius):
             for r in range(7):
                 cy = y0 + r * pitch
                 if glyph[r][c] == "1":
-                    on.append(f'<circle cx="{cx}" cy="{cy}" r="{radius}" style="animation-delay:{delay:.2f}s"/>')
+                    on.append(f'<circle cx="{cx}" cy="{cy}" r="{radius}" style="animation-duration:5s;animation-delay:{delay:.2f}s"/>')
                 else:
                     off.append(f'<circle cx="{cx}" cy="{cy}" r="{radius}"/>')
         col += 6
@@ -101,7 +101,7 @@ def hero():
     name_w = (13 * 6 - 1 - 1) * 11
     x0 = (w - name_w) / 2
     b = [
-        f'<text x="48" y="44" font-size="15" class="gold">GS-2026</text>',
+        f'<text x="48" y="44" font-size="15" class="gold">Gabriel</text>',
         f'<text x="{w/2}" y="44" font-size="15" class="muted" text-anchor="middle">DATASHEET · REV 3.0</text>',
         f'<text x="{w-48}" y="44" font-size="15" class="muted" text-anchor="end">SÃO PAULO · SP</text>',
         dot_matrix("GABRIEL SOUZA", x0, 74, 11, 4.3),
@@ -150,10 +150,10 @@ def hero():
 
 
 def pinout():
-    left = ["Python", "SQL", "MongoDB", "Pandas", "Java", "HTML / CSS", "Power BI", "Excel", "n8n", "SAP", "Figma", "Git / GitHub"]
-    right = ["Machine Learning", "Modelagem Preditiva", "Detecção de Anomalias", "Análise Exploratória", "LLM", "Big Data", "Modelagem de Dados", "Dashboards", "Automação", "Qualidade de Dados", "Governança de Dados", "LGPD"]
-    w, h = 1000, 560
-    top, step = 96, 34
+    left = ["Python", "SQL", "MongoDB", "Pandas", "Java", "Power BI", "Excel", "Git / GitHub"]
+    right = ["Machine Learning", "Análise Exploratória", "LLM", "Modelagem de Dados", "Dashboards", "Automação", "Qualidade de Dados", "LGPD"]
+    w, h = 1000, 430
+    top, step = 96, 38
     n = len(left)
     chip_x, chip_w = 360, 280
     chip_y, chip_h = 72, step * n + 14
@@ -168,24 +168,18 @@ def pinout():
         delay = i * 0.25
         b.append(f'<path class="trace" d="{lpath}"/><path class="trace" d="{rpath}"/>')
         b.append(f'<path class="pulse" pathLength="600" d="{lpath}" style="animation-delay:{delay:.2f}s"/>')
-        b.append(f'<path class="pulse" pathLength="600" d="{rpath}" style="animation-delay:{delay + 1:.2f}s"/>')
+        b.append(f'<path class="pulse" pathLength="600" d="{rpath}" style="animation-duration:5s;animation-delay:{delay + 1:.2f}s"/>')
         for x, pw in ((chip_x - 16, 16), (chip_x + chip_w, 16)):
             b.append(f'<rect x="{x}" y="{y-5}" width="{pw}" height="10" fill="#c7ccd1"/>')
         b.append(f'<circle cx="248" cy="{y}" r="4.5" fill="{GOLD}"/><circle cx="752" cy="{y}" r="4.5" fill="{GOLD}"/>')
         b.append(f'<text x="232" y="{y+6}" font-size="17" class="silk" text-anchor="end">{left[i]}</text>')
         b.append(f'<text x="768" y="{y+6}" font-size="17" class="silk">{right[i]}</text>')
-        b.append(f'<text x="{chip_x+10}" y="{y+5}" font-size="13" class="muted">{i+1}</text>')
-        b.append(f'<text x="{chip_x+chip_w-10}" y="{y+5}" font-size="13" class="muted" text-anchor="end">{2*n-i}</text>')
     cx = chip_x + chip_w / 2
     b.append(f'<rect x="{chip_x}" y="{chip_y}" width="{chip_w}" height="{chip_h}" rx="5" fill="none" stroke="{GOLD}" stroke-width="1.5"/>')
     b.insert(2, f'<rect x="{chip_x}" y="{chip_y}" width="{chip_w}" height="{chip_h}" rx="5" fill="#10171a"/>')
     b.append(f'<path d="M{cx-18} {chip_y} a18 18 0 0 0 36 0" fill="{BOARD}" stroke="{GOLD}" stroke-width="1.5"/>')
     mid = chip_y + chip_h / 2
-    b.append(f'<text x="{cx}" y="{mid-22}" font-size="28" class="silk" text-anchor="middle" font-weight="700">GS-2026</text>')
-    b.append(f'<text x="{cx}" y="{mid+6}" font-size="14" class="muted" text-anchor="middle">processador de dados</text>')
-    b.append(f'<text x="{cx}" y="{mid+28}" font-size="14" class="muted" text-anchor="middle">encapsulamento: humano</text>')
-    b.append(f'<circle class="led" cx="{cx}" cy="{mid+56}" r="6"/>')
-    b.append(f'<text x="{cx}" y="{mid+84}" font-size="13" class="green" text-anchor="middle">ATIVO</text>')
+    b.append(f'<text x="{cx}" y="{mid+11}" font-size="34" class="silk" text-anchor="middle" font-weight="700">Gabriel</text>')
     return svg(w, h, "Pinagem: ferramentas de entrada e entregas de saída", "", "".join(b))
 
 
@@ -201,7 +195,7 @@ def path():
     x0 = (w - 4 * card_w - 3 * gap) / 2
     bus_y = y + 172
     b = [
-        f'<text x="{w/2}" y="46" font-size="15" class="muted" text-anchor="middle">VCC ── do ferro de solda ao modelo preditivo ── OUT</text>',
+        f'<text x="{w/2}" y="46" font-size="15" class="muted" text-anchor="middle">VCC ── do ferro de solda aos dados ── OUT</text>',
         f'<path class="trace" d="M40 {bus_y} H{w-40}"/>',
         f'<path class="pulse" pathLength="600" d="M40 {bus_y} H{w-40}" style="animation-duration:4s"/>',
     ]
@@ -232,11 +226,11 @@ def multiline(x, y, content, width, size, cls, gap=None, extra=""):
 
 
 def description():
-    w, h = 1000, 430
+    w, h = 1000, 380
     text = (
-        "O GS-2026 é um profissional de dados em início de carreira que transforma dados brutos "
-        "em indicadores, modelos preditivos e processos bem documentados, com governança e "
-        "privacidade desde a entrada."
+        "O Gabriel é um profissional de dados em início de carreira que transforma dados brutos "
+        "em indicadores, modelos de Machine Learning e processos bem documentados, com atenção "
+        "à privacidade."
     )
     lcd = "#a9c94f"
     css = f"""
@@ -261,23 +255,21 @@ def description():
     b.append("</g>")
 
     mods = [
-        ("ML", "Modelos preditivos e detecção de anomalias"),
+        ("ML", "Modelos de Machine Learning"),
         ("DATA", "Python, Pandas, SQL e MongoDB"),
         ("BI", "Dashboards e indicadores no Power BI"),
-        ("LGPD", "Governança e LGPD na prática, no QuintoAndar"),
-        ("n8n", "Automação de processos e rotinas"),
     ]
-    cw, gap = 170, 12
-    x0 = (w - 5 * cw - 4 * gap) / 2
+    cw, gap = 290, 12
+    x0 = (w - 3 * cw - 2 * gap) / 2
     for i, (tag, desc) in enumerate(mods):
         x = x0 + i * (cw + gap)
         cx = x + cw / 2
         wire = f"M{cx} 190 V226"
         b.append(f'<path class="trace" d="{wire}"/><path class="pulse" pathLength="600" d="{wire}" style="stroke-dasharray:200 400;animation-delay:{i * .4:.1f}s"/>')
-        b.append(f'<rect class="chip feat" x="{x}" y="226" width="{cw}" height="172" rx="6" style="animation-delay:{i:.0f}s"/>')
+        b.append(f'<rect class="chip feat" x="{x}" y="226" width="{cw}" height="124" rx="6" style="animation-delay:{i:.0f}s"/>')
         b.append(f'<circle class="led" cx="{x+cw-20}" cy="250" r="5.5" style="animation-delay:{i * .3:.1f}s"/>')
         b.append(f'<text x="{x+14}" y="264" font-size="27" font-weight="700" class="silk">{tag}</text>')
-        b.append(multiline(x + 14, 298, desc, 16, 15, "muted"))
+        b.append(multiline(x + 14, 300, desc, 28, 15, "muted"))
     return svg(w, h, "Descrição geral e características", css, "".join(b))
 
 
@@ -378,32 +370,6 @@ def art_scatter(x, y, w, h):
     )
 
 
-def art_pitch(x, y, w, h):
-    cx, cy = x + w / 2, y + h / 2
-    line = 'fill="none" stroke="#2f7a52" stroke-width="2"'
-    return (
-        f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="6" fill="#04100a"/>'
-        f'<rect x="{x+10}" y="{y+8}" width="{w-20}" height="{h-16}" {line}/>'
-        f'<path d="M{cx} {y+8} V{y+h-8}" {line}/><circle cx="{cx}" cy="{cy}" r="24" {line}/>'
-        f'<rect x="{x+10}" y="{cy-30}" width="42" height="60" {line}/><rect x="{x+w-52}" y="{cy-30}" width="42" height="60" {line}/>'
-        f'<g transform="translate({x} {y})"><circle class="ball" cx="0" cy="0" r="7" fill="{SILK}"/></g>'
-    )
-
-
-def art_stack(x, y, w, h):
-    boxes = (("SITE", x + 10), ("API", x + w / 2 - 50), ("SQL", x + w - 110))
-    wires = f"M{x+110} {y+h/2} H{x+w/2-50} M{x+w/2+50} {y+h/2} H{x+w-110}"
-    out = [
-        f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="6" fill="#04100a"/>',
-        f'<path class="trace" d="{wires}"/><path class="pulse" pathLength="600" d="{wires}"/>',
-    ]
-    for label, bx in boxes:
-        out.append(f'<rect class="chip" x="{bx}" y="{y+h/2-30}" width="100" height="60" rx="5"/>')
-        out.append(f'<text x="{bx+50}" y="{y+h/2+7}" font-size="19" class="silk" text-anchor="middle" font-weight="700">{label}</text>')
-    out.append(f'<text x="{x+w/2}" y="{y+h-10}" font-size="13" class="muted" text-anchor="middle">{{ "produto": "tênis" }}</text>')
-    return "".join(out)
-
-
 CARD_CSS = f"""
 .spin{{animation:spin 4s linear infinite}}
 @keyframes spin{{to{{transform:rotate(-360deg)}}}}
@@ -412,8 +378,6 @@ CARD_CSS = f"""
 @keyframes route{{to{{stroke-dashoffset:-32}}}}
 .ride{{animation:ride 8s linear infinite}}
 @keyframes ride{{to{{transform:translateX(580px)}}}}
-.ball{{animation:ball 7s ease-in-out infinite}}
-@keyframes ball{{0%,100%{{transform:translate(90px,62px)}}25%{{transform:translate(210px,28px)}}50%{{transform:translate(300px,90px)}}75%{{transform:translate(412px,62px)}}}}
 .tag{{fill:#1a2a22;stroke:#2f5d45}}
 """
 
@@ -461,36 +425,6 @@ def project_card(ref, title, label, active, desc, tags, art, link=False):
     return svg(w, h, title, CARD_CSS, "".join(b))
 
 
-def limits():
-    w, h = 1000, 350
-    items = ["Dados pessoais sem base legal", "Modelos sem métrica de avaliação", "Dashboards sem fonte conhecida", "Processos sem fluxograma"]
-    css = """
-.needle{animation:needle 3s ease-in-out infinite}
-@keyframes needle{0%,70%,100%{transform:rotate(0)}78%{transform:rotate(9deg)}84%{transform:rotate(-1deg)}90%{transform:rotate(4deg)}}
-.warn{animation:blink 1s steps(2) infinite}
-"""
-    mw, gap = 220, 16
-    x0 = (w - 4 * mw - 3 * gap) / 2
-    b = []
-    for i, label in enumerate(items):
-        x = x0 + i * (mw + gap)
-        cx, cy, r = x + mw / 2, 142, 74
-        b.append(f'<rect x="{x}" y="40" width="{mw}" height="218" rx="8" fill="#e9e4d4" stroke="#49525a" stroke-width="3"/>')
-        b.append(f'<path d="M{cx-r} {cy} A{r} {r} 0 0 1 {cx+r} {cy}" fill="none" stroke="#d1242f" stroke-width="9"/>')
-        b.append(f'<path d="M{cx-r} {cy} A{r} {r} 0 0 1 {cx-r*.97:.1f} {cy-r*.24:.1f}" fill="none" stroke="#1a7f37" stroke-width="9"/>')
-        for k in range(0, 11):
-            a = math.radians(180 - k * 18)
-            b.append(f'<path d="M{cx+(r-8)*math.cos(a):.1f} {cy-(r-8)*math.sin(a):.1f} L{cx+(r-18)*math.cos(a):.1f} {cy-(r-18)*math.sin(a):.1f}" stroke="#222" stroke-width="2"/>')
-        b.append(f'<text x="{cx-r+18}" y="{cy+22}" font-size="20" font-weight="700" fill="#1a7f37" text-anchor="middle">0</text>')
-        b.append(f'<g transform="translate({cx} {cy})"><path class="needle" d="M0 0 L{-r+8} 0" stroke="#111" stroke-width="3.5" stroke-linecap="round" style="animation-delay:{i*.5:.1f}s"/><circle r="8" fill="#111"/></g>')
-        b.append(f'<text x="{cx+24}" y="{cy+26}" font-size="14" fill="#333">MÁX. 0</text>')
-        b.append(multiline(cx, 196, label, 22, 16, "", 22, ' fill="#111" text-anchor="middle" font-weight="700"'))
-    b.append('<path class="warn" d="M64 305 L78 281 L92 305 Z" fill="#f85149"/>')
-    b.append('<text x="78" y="302" font-size="15" font-weight="700" fill="#07130e" text-anchor="middle">!</text>')
-    b.append('<text x="104" y="299" font-size="16.5" class="silk">Operar acima destes limites pode causar danos permanentes ao titular dos dados.</text>')
-    return svg(w, h, "Limites absolutos: tudo em zero", css, "".join(b))
-
-
 def label():
     w, h = 1000, 340
     css = """
@@ -503,7 +437,7 @@ def label():
     ink = "#141414"
     x, y, lw, lh = 56, 36, 888, 268
     b = [f'<rect x="{x}" y="{y}" width="{lw}" height="{lh}" rx="8" fill="{paper}"/>']
-    b.append(f'<text x="{x+26}" y="{y+40}" font-size="24" font-weight="800" fill="{ink}">GS-2026-SP</text>')
+    b.append(f'<text x="{x+26}" y="{y+40}" font-size="24" font-weight="800" fill="{ink}">Gabriel-SP</text>')
     b.append(f'<path d="M{x+26} {y+54} H{x+540}" stroke="{ink}" stroke-width="2"/>')
     fields = [("LOCAL", "São Paulo, SP"), ("LINKEDIN", "linkedin.com/in/gabrielsouza7"), ("E-MAIL", "contact.gabriels7@gmail.com")]
     for i, (k, v) in enumerate(fields):
@@ -518,7 +452,7 @@ def label():
     # Código de barras decorativo, gerado a partir do código do componente.
     bx, by, bh = x + 575, y + 34, 166
     cursor = bx
-    for byte in "GS-2026-SP".encode() * 2:
+    for byte in "Gabriel-SP".encode() * 2:
         for k in range(5):
             bar = 2 + (byte >> k & 1) * 3
             gap = 2 + (byte >> (k + 1) & 1) * 2
@@ -527,7 +461,7 @@ def label():
             b.append(f'<rect x="{cursor}" y="{by}" width="{bar}" height="{bh}" fill="{ink}"/>')
             cursor += bar + gap
     b.append(f'<path class="laser" d="M{bx} {by-10} V{by+bh+10}" stroke="#ff2b2b" stroke-width="2.5"/>')
-    b.append(f'<text x="{bx+143}" y="{by+bh+32}" font-size="16" fill="{ink}" text-anchor="middle" letter-spacing="3">GS-2026-SP</text>')
+    b.append(f'<text x="{bx+143}" y="{by+bh+32}" font-size="16" fill="{ink}" text-anchor="middle" letter-spacing="3">Gabriel-SP</text>')
     return svg(w, h, "Etiqueta com informações de contato", css, "".join(b))
 
 
@@ -553,9 +487,6 @@ if __name__ == "__main__":
         "project-radar": project_wide(),
         "project-motiva": project_card("A2", "Challenge FIAP + Motiva", "em andamento", True, "Prevê falhas em equipamentos que operam nos trilhos de trem de São Paulo, para reduzir paradas não programadas.", ["ML", "Sensores"], art_train),
         "project-leak": project_card("A3", "Vazamento de Dados", "em andamento", True, "Encontra possíveis vazamentos de dados corporativos com detecção de anomalias e auditoria de acessos.", ["Python", "MongoDB", "SQL", "Power BI"], art_scatter),
-        "project-copa": project_card("A4", "Análise Copa do Mundo", "pessoal", False, "Análise exploratória de dataset público, com tratamento, visualizações e insights.", ["Python", "Pandas"], art_pitch, link=True),
-        "project-shop": project_card("A5", "E-commerce de Tênis", "acadêmico", False, "Site de vendas full stack com consumo de API, banco relacional e manipulação de JSON.", ["API", "SQL", "JSON"], art_stack),
-        "limits": limits(),
         "label": label(),
         "btn-linkedin": button("LINKEDIN", "gabrielsouza7"),
         "btn-email": button("E-MAIL", "contact.gabriels7@gmail.com"),

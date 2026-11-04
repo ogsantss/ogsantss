@@ -2,9 +2,6 @@
   <img src="assets/hero.svg" width="100%" alt="Letreiro de LEDs com o nome Gabriel Souza e uma animação em que um sinal analógico vira código e depois decisão baseada em dados" />
 </div>
 
-> **Sou técnico em eletrônica e hoje trabalho com dados. Por isso, em vez de um perfil comum, escrevi o meu datasheet.**
-> Leia como a folha de dados de um componente: o que ele faz, como se liga e em que condições opera.
-
 <div align="center">
   <a href="https://www.linkedin.com/in/gabrielsouza7/"><img src="assets/btn-linkedin.svg" width="49%" alt="LinkedIn: gabrielsouza7" /></a>
   <a href="mailto:contact.gabriels7@gmail.com"><img src="assets/btn-email.svg" width="49%" alt="E-mail: contact.gabriels7@gmail.com" /></a>
@@ -13,13 +10,13 @@
 ## 1 · Descrição geral
 
 <div align="center">
-  <img src="assets/description.svg" width="100%" alt="Display LCD com a descrição do GS-2026, um profissional de dados em início de carreira, ligado a cinco módulos: Machine Learning, dados com Python, Pandas, SQL e MongoDB, BI com Power BI, Governança e LGPD, e automação com n8n" />
+  <img src="assets/description.svg" width="100%" alt="Display LCD com a descrição de Gabriel, um profissional de dados em início de carreira, ligado a três módulos: Machine Learning, dados com Python, Pandas, SQL e MongoDB, e BI com Power BI" />
 </div>
 
 ## 2 · Pinagem
 
 <div align="center">
-  <img src="assets/pinout.svg" width="100%" alt="Chip GS-2026. Entradas: Python, SQL, MongoDB, Pandas, Java, HTML e CSS, Power BI, Excel, n8n, SAP, Figma, Git e GitHub. Saídas: Machine Learning, Modelagem Preditiva, Detecção de Anomalias, Análise Exploratória, LLM, Big Data, Modelagem de Dados, Dashboards, Automação, Qualidade de Dados, Governança de Dados e LGPD" />
+  <img src="assets/pinout.svg" width="100%" alt="Chip Gabriel. Entradas: Python, SQL, MongoDB, Pandas, Java, Power BI, Excel, Git e GitHub. Saídas: Machine Learning, Análise Exploratória, LLM, Modelagem de Dados, Dashboards, Automação, Qualidade de Dados e LGPD" />
 </div>
 
 ## 3 · Diagrama de blocos
@@ -40,6 +37,12 @@ Medição real, não ilustração. Este traço é redesenhado todo dia com as mi
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/ogsantss/ogsantss/output/scope.svg" width="100%" alt="Osciloscópio mostrando as contribuições semanais de Gabriel no GitHub nos últimos 12 meses" />
+  <br><br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ogsantss/ogsantss/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ogsantss/ogsantss/output/github-snake.svg" />
+    <img width="100%" alt="Cobrinha comendo as contribuições no gráfico do GitHub" src="https://raw.githubusercontent.com/ogsantss/ogsantss/output/github-snake-dark.svg" />
+  </picture>
 </div>
 
 ## 6 · Aplicações típicas
@@ -49,20 +52,12 @@ Medição real, não ilustração. Este traço é redesenhado todo dia com as mi
   <br><br>
   <img src="assets/project-motiva.svg" width="49%" alt="Challenge FIAP + Motiva: previsão de falhas em equipamentos dos trilhos de trem de São Paulo. Em andamento." />
   <img src="assets/project-leak.svg" width="49%" alt="Detecção de Vazamento de Dados com detecção de anomalias e auditoria de acessos. Em andamento." />
-  <a href="https://github.com/ogsantss/AnaliseCopaDoMundo"><img src="assets/project-copa.svg" width="49%" alt="Análise Copa do Mundo: análise exploratória de dataset público com Python e Pandas." /></a>
-  <img src="assets/project-shop.svg" width="49%" alt="E-commerce de Tênis: site de vendas full stack com API, banco relacional e JSON." />
 </div>
 
-## 7 · Limites absolutos
+## 7 · Informações para contato
 
 <div align="center">
-  <img src="assets/limits.svg" width="100%" alt="Quatro medidores analógicos, todos em zero: dados pessoais sem base legal, modelos sem métrica de avaliação, dashboards sem fonte conhecida e processos sem fluxograma. Operar acima destes limites pode causar danos permanentes ao titular dos dados." />
-</div>
-
-## 8 · Informações para contato
-
-<div align="center">
-  <img src="assets/label.svg" width="100%" alt="Etiqueta do componente GS-2026-SP: São Paulo, SP, LinkedIn gabrielsouza7, e-mail contact.gabriels7@gmail.com e telefone anonimizado por causa da LGPD" />
+  <img src="assets/label.svg" width="100%" alt="Etiqueta do componente Gabriel-SP: São Paulo, SP, LinkedIn gabrielsouza7, e-mail contact.gabriels7@gmail.com e telefone anonimizado por causa da LGPD" />
 </div>
 
 <details>
@@ -70,7 +65,7 @@ Medição real, não ilustração. Este traço é redesenhado todo dia com as mi
 
 ### Sobre
 
-Profissional de dados em início de carreira. Transformo dados brutos em indicadores, modelos preditivos e processos bem documentados, com governança e privacidade desde a entrada.
+Profissional de dados em início de carreira. Transformo dados brutos em indicadores, modelos de Machine Learning e processos bem documentados, com atenção à privacidade.
 
 ### Experiência
 
@@ -87,8 +82,6 @@ Profissional de dados em início de carreira. Transformo dados brutos em indicad
 - **[Radar Urbano](https://github.com/ogsantss/Radar-Urbano)**: rotas seguras com Machine Learning, BI e LLM (em andamento)
 - **Challenge FIAP + Motiva**: previsão de falhas em equipamentos dos trilhos de trem de São Paulo (em andamento)
 - **Detecção de Vazamento de Dados**: detecção de anomalias e auditoria de acessos com Python, MongoDB, SQL e Power BI (em andamento)
-- **[Análise Copa do Mundo](https://github.com/ogsantss/AnaliseCopaDoMundo)**: análise exploratória com Python e Pandas
-- **E-commerce de Tênis**: site full stack com API, banco relacional e JSON
 
 ### Formação
 
@@ -98,6 +91,6 @@ Profissional de dados em início de carreira. Transformo dados brutos em indicad
 
 ### Habilidades
 
-Python, SQL, Java, HTML, CSS · Machine Learning, Modelagem Preditiva, Detecção de Anomalias, Análise Exploratória, Pandas, LLM, Big Data · MongoDB, Modelagem de Dados · Power BI, Excel · n8n, SAP, Figma, Git, GitHub, APIs, JSON · Governança de Dados, Privacidade de Dados, LGPD
+Python, SQL, Java · Machine Learning, Análise Exploratória, Pandas, LLM · MongoDB, Modelagem de Dados · Power BI, Excel · Git, GitHub, APIs, JSON · Privacidade de Dados, LGPD
 
 </details>

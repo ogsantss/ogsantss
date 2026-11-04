@@ -1,4 +1,4 @@
-name: Atualizar osciloscópio
+name: Atualizar osciloscópio e cobrinha
 
 on:
   schedule:
@@ -21,6 +21,13 @@ jobs:
           python-version: "3.12"
 
       - run: python scripts/build_scope.py "${{ github.repository_owner }}" dist/scope.svg
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#39d353
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
