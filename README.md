@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="Letreiro de LEDs com o nome Gabriel Souza e uma animação em que um sinal analógico vira código e depois decisão baseada em dados" />
+  <img src="assets/hero.svg?v=2" width="100%" alt="Letreiro de LEDs com o nome Gabriel Souza e uma animação em que um sinal analógico vira código e depois decisão baseada em dados" />
 </div>
 
 <div align="center">
@@ -10,13 +10,13 @@
 ## 1 · Descrição geral
 
 <div align="center">
-  <img src="assets/description.svg" width="100%" alt="Display LCD com a descrição de Gabriel, um profissional de dados em início de carreira, ligado a três módulos: dados com Python e Pandas, SQL e MongoDB, e BI com Power BI" />
+  <img src="assets/description.svg?v=2" width="100%" alt="Display LCD com a descrição de Gabriel, um profissional de dados em início de carreira, ligado a três módulos: dados com Python e Pandas, SQL e MongoDB, e BI com Power BI" />
 </div>
 
 ## 2 · Pinagem
 
 <div align="center">
-  <img src="assets/pinout.svg" width="100%" alt="Chip Gabriel. Entradas: Python, SQL, MongoDB, Pandas, Java, Power BI, Excel, Git e GitHub. Saídas: Tratamento de Dados, Análise Exploratória, Indicadores, Modelagem de Dados, Dashboards, Automação, Qualidade de Dados e LGPD" />
+  <img src="assets/pinout.svg?v=2" width="100%" alt="Chip Gabriel. Entradas: Python, SQL, MongoDB, Pandas, Java, Power BI, Excel, Git e GitHub. Saídas: Tratamento de Dados, Análise Exploratória, Indicadores, Modelagem de Dados, Dashboards, Automação, Qualidade de Dados e LGPD" />
 </div>
 
 ## 3 · Diagrama de blocos
@@ -37,12 +37,6 @@ Medição real, não ilustração. Este traço é redesenhado todo dia com as mi
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/ogsantss/ogsantss/output/scope.svg" width="100%" alt="Osciloscópio mostrando as contribuições semanais de Gabriel no GitHub nos últimos 12 meses" />
-  <br><br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ogsantss/ogsantss/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ogsantss/ogsantss/output/github-snake.svg" />
-    <img width="100%" alt="Cobrinha comendo as contribuições no gráfico do GitHub" src="https://raw.githubusercontent.com/ogsantss/ogsantss/output/github-snake-dark.svg" />
-  </picture>
 </div>
 
 ## 6 · Aplicações típicas
@@ -94,3 +88,11 @@ Profissional de dados em início de carreira. Transformo dados brutos em indicad
 Python, SQL, Java · Tratamento de Dados, Análise Exploratória, Pandas · MongoDB, Modelagem de Dados · Power BI, Excel · Git, GitHub, APIs, JSON · Privacidade de Dados, LGPD
 
 </details>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ogsantss/ogsantss/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ogsantss/ogsantss/output/github-snake.svg" />
+    <img width="100%" alt="Cobrinha comendo as contribuições no gráfico do GitHub" src="https://raw.githubusercontent.com/ogsantss/ogsantss/output/github-snake-dark.svg" />
+  </picture>
+</div>
